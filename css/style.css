@@ -1,0 +1,85 @@
+*{
+    margin:0px;
+    padding:0px; /* Delete the dots in all menu */ 
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -webkit-transition-duration: 0.25s;
+    -moz-transition-timing-function: cubic-bezier(25, 0, 25, 25);  
+}
+@font-face{
+   font-family: 'Open Sans', sans-serif;   
+}
+header > nav > ul > li > a{
+    text-decoration: none;
+    padding:13px 42px;
+    color:white;   
+}
+header > nav > ul > li > a:hover {
+    
+    background-color: #FF8740;
+    color:white;    
+}
+
+
+header > nav > ul {
+    list-style: none; /* Delete the dots */    
+}
+header > nav > ul > li{
+     display: inline-block;
+     padding: 13px 0px;  
+    
+    
+    
+    
+}
+header{
+    margin-bottom: 60px;
+}
+
+header > nav {
+    background:#FF5F00;
+    /* text-align:center;  centra el <li> en el medio justo */
+    width: 100%;
+    top: 0px;
+    background-color: #333;
+    position: fixed;
+   
+    
+  
+    
+    
+}
+header > nav > ul > li{
+    
+    margin: 0px 15px;
+    
+}
+header > nav > ul {
+    
+    margin: 0px 0px 0px 70px; /* separacion de la lista con respecto al <nav> por solo un lado */
+}
+
+.test{
+    
+    height: 1500;
+    width: 800;
+   
+    
+    
+    
+}
+
+
+/* --------------------
+
+El elemento dentro de <nav> se ve centrado, ademas al no poner tamaño al <nav> se adapta al <ul> y este al no tener tamaño esstablecido se adapta <li> y este a sy vez al <a>.
+
+El <a> con el padding lo que haces es crear una zona interior con los px establecios en "x (a los dos lados)" en "y (a los dos lados)" respectivamente pero al no estar definido de tamaño <a> el padding no aumenta en dos direcciones → ↓ si no que creamos un area en el que se puede clikear y este padding es creado con 13 px arriba y abajo u 42 hacia los dos lados 
+--------------------- */
+
+/*---------------------
+			
+FF5F00	BF6530	A63E00	FF8740	FFA773
+
+
+-----------------------*/
