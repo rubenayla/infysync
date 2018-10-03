@@ -11,38 +11,68 @@
 }
 header > nav > ul > li > a{
     text-decoration: none;
-    padding:13px 42px;
     color:white;   
+    text-align: center;
+    
+    padding:16px 26px;  /* compara padding de <a> con el de <a> con hover /// tamaño del nav */
+    display: block;
+     
+    
+   
+    
+    
+    
 }
 header > nav > ul > li > a:hover {
     
     background-color: #FF8740;
-    color:white;    
+    color:white; 
+    padding:16px 50px;
 }
 
 
 header > nav > ul {
-    list-style: none; /* Delete the dots */    
+   
+    
+     list-style-type: none;
+    
+    overflow: hidden;
+    
 }
 header > nav > ul > li{
-     display: inline-block;
-     padding: 13px 0px;  
+     display:inline-block;
+      
+     
+    
     
     
     
     
 }
 header{
-    margin-bottom: 60px;
+    margin-bottom: 80px;
+    text-align: center;
+    
+     
+    
+    
 }
 
 header > nav {
-    background:#FF5F00;
     /* text-align:center;  centra el <li> en el medio justo */
-    width: 100%;
-    top: 0px;
+    
+    
     background-color: #333;
     position: fixed;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    /* margin-top: 0px; */
+    
+}
+    
+    
+    
    
     
   
@@ -51,12 +81,12 @@ header > nav {
 }
 header > nav > ul > li{
     
-    margin: 0px 15px;
+    
     
 }
 header > nav > ul {
     
-    margin: 0px 0px 0px 70px; /* separacion de la lista con respecto al <nav> por solo un lado */
+    margin: 0px 0px 0px 0px; /* separacion de la lista con respecto al <nav> por solo un lado */
 }
 
 .test{
